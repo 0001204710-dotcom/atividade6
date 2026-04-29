@@ -14,9 +14,9 @@
 		
 		<nav class = "justify-content-center text-center text-black fw-bold">
 
-			<a href="#home" class = "text-black text-decoration-none me-3 border shadow-lg rounded p-1">Home</a>
-			<a href="Fandom.html" target="_self" class = "text-black text-decoration-none me-3 border shadow-lg rounded p-1">Fandom</a>
-			<a href="#footer" class = "text-black text-decoration-none me-3 border shadow-lg rounded p-1">Comentários</a>
+			<a href="#home" class = "btn btn-dark shadow-lg me-3 fw-bold">Home</a>
+			<a href="Fandom.html" class = "btn btn-outline-dark shadow-lg me-3 fw-bold">Fandom</a>
+			<a href="#footer" class = "btn btn-outline-dark shadow-lg me-3 fw-bold">Comentários</a>
 
 		</nav>
 		
@@ -94,18 +94,17 @@
 		 <br>
 
 		
-		<footer id = "footer" class = "bg-dark text-white border p-3 rounded">
-			<h3 class = "text-center">Área de feedback</h3>
-			<br>
-			<div class = "d-flex gap-2 justify-content-center">
-				<form action = "comentarios.html" method = "post"></form>
-					<input type="text" placeholder="Digite seu comentário aqui" class = "form-control w-50">
-					<input type = "submit" value = "Enviar" class = "btn btn-primary">
-			</div>
-			<br>
-			
-			<p class = "text-center"><strong>Apenas um show | © 2026 | (31) 99893478</strong></p>
-		 </footer>
+			<footer id="footer" class="bg-dark text-white border p-3 rounded mt-5">
+				<h3 class="text-center">Área de feedback</h3>
+				<br>
+
+				<form action="comentarios.html" method="post" class="d-flex gap-2 justify-content-center">
+					<input type="text" name="comentario" placeholder="Digite seu comentário aqui" class="form-control w-50">
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+				<br>
+				<p class="text-center"><strong>Apenas um show | © 2026 | (31) 99893478</strong></p>
+			</footer>
 		</main>
 	</div>	
 </body>
